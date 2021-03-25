@@ -1,0 +1,29 @@
+serviceConfig:
+  scheme: http://
+  hostName: 0.0.0.0
+  port: 12347
+  path: /api/movies
+
+loggerConfig:
+  outputDir: ./logs/
+  outputFile: test.log
+
+databaseConfig:
+  dbUsername: root
+  dbPassword: yyuhhaoccheng
+  dbHostname: 127.0.0.1
+  dbPort: 3306
+  dbDriver: com.mysql.cj.jdbc.Driver
+  dbName: be2
+  dbSettings: ?autoReconnect=true&useGmtMillisForDatetimes=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useTimezone=true&serverTimezone=CST
+
+idmConfig:
+  scheme: http://
+  hostName: 0.0.0.0
+  port: 12346
+  path: /api/idm
+
+idmEndpoints:
+  privilege: /privilege
+
+

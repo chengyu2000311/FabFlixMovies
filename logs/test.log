@@ -1,0 +1,20 @@
+[2021/03/25 08:13:25][CONFIG][initService]  Starting service...
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Scheme: http://
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Hostname: 0.0.0.0
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Port: 12347
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Path: /api/movies
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Logger output directory: ./logs/
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Database hostname: 127.0.0.1
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Database port: 3306
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Database username: root
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Database password provided? true
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Database name: be2
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Database driver: com.mysql.cj.jdbc.Driver
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  Database connection settings: ?autoReconnect=true&useGmtMillisForDatetimes=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useTimezone=true&serverTimezone=CST
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  IDM Scheme: http://
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  IDM Hostname: 0.0.0.0
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  IDM Port: 12346
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  IDM Path: /api/idm
+[2021/03/25 08:13:25][CONFIG][currentConfigs]  IDM Privilege Path: /privilege
+[2021/03/25 08:13:25][CONFIG][connectToDatabase]  Connecting to database...
+[2021/03/25 08:13:25][CONFIG][connectToDatabase]  Database URL: jdbc:mysql://127.0.0.1:3306/be2?autoReconnect=true&useGmtMillisForDatetimes=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useTimezone=true&serverTimezone=CST
